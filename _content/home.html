@@ -9,7 +9,7 @@ permalink: /
 
 <div class="intro">
   <div class="container">
-    <img class="banner" src="/assets/img/tus1.png" alt="tus - Resumable File Uploads" />
+    <img class="banner" src="/assets/img/tus1--no-io.png" alt="tus - Resumable File Uploads" />
   </div>
 
   <div class="mission">
@@ -72,6 +72,7 @@ permalink: /
   <h2>Official implementations</h2>
 
   <div class="row">
+    <div class="one column"></div>
     {% for impl in site.data.implementations %}
     <div class="two columns implementation">
       <a href="https://github.com/tus/{{impl.name}}">
@@ -93,7 +94,7 @@ permalink: /
   <h2>Blog posts</h2>
 
   <ol class="posts">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:5 %}
     {% assign author = site.data.authors[post.author] %}
     <li>
       <div class="author">
@@ -124,7 +125,7 @@ permalink: /
   <h2>Who is using tus?</h2>
 
   <div class="row logos">
-    {% for logo in site.data.logos limit:6 %}
+    {% for logo in site.data.logos limit:5 %}
         <a href="{{ logo.url }}" title="{{ logo.name }}">
           <img src="{{ logo.src }}" alt="{{ logo.name }}">
         </a>

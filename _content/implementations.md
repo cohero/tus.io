@@ -32,7 +32,7 @@ These projects are reference implementations maintained by the protocol develope
       tus-js-client
     </a>
 
-    <div class="author">&mdash; by <a href="/about.html">tus</a></div>
+    <div class="author">&mdash; by <a href="/support.html">tus</a></div>
 
     <div class="description">
       Add tus <code>v1.0.0</code> resumable file uploads to <strong>client</strong> web apps that are built with <strong>JavaScript</strong>.
@@ -46,7 +46,7 @@ These projects are reference implementations maintained by the protocol develope
       tus-java-client
     </a>
 
-    <div class="author">&mdash; by <a href="/about.html">tus</a></div>
+    <div class="author">&mdash; by <a href="/support.html">tus</a></div>
 
     <div class="description">
       Add tus <code>v1.0.0</code> resumable file uploads to <strong>client</strong> app using <strong>Java</strong>.
@@ -60,7 +60,7 @@ These projects are reference implementations maintained by the protocol develope
       tus-android-client
     </a>
 
-    <div class="author">&mdash; by <a href="/about.html">tus</a></div>
+    <div class="author">&mdash; by <a href="/support.html">tus</a></div>
 
     <div class="description">
       Add tus <code>v1.0.0</code> resumable file uploads to <strong>Android</strong> apps.
@@ -102,7 +102,7 @@ These projects are reference implementations maintained by the protocol develope
       tusd
     </a>
 
-    <div class="author">&mdash; by <a href="/about.html">tus</a></div>
+    <div class="author">&mdash; by <a href="/support.html">tus</a></div>
 
     <div class="description">
       A stand-alone <strong>server</strong> written in <strong>Go</strong> to handle resumable file uploads using the tus <code>v1.0.0</code> protocol.
@@ -116,7 +116,7 @@ These projects are reference implementations maintained by the protocol develope
       tus-node-server
     </a>
 
-    <div class="author">&mdash; by <a href="/about.html">tus</a></div>
+    <div class="author">&mdash; by <a href="/support.html">tus</a></div>
 
     <div class="description">
       A stand-alone <strong>server</strong> or <a href="http://expressjs.com/en/guide/using-middleware.html">express middleware</a> written in <strong>node.js</strong> to handle resumable file uploads using the tus <code>v1.0.0</code> protocol. You can also run this to test client implementations with.
@@ -238,6 +238,48 @@ what protocol version you're targeting.
 
     <div class="license">Licensed under MIT</div>
   </li>
+
+  <li>
+    <a class="title" href="https://github.com/jackhftang/tusc">
+      jackhftang/tusc
+    </a>
+
+    <div class="author">&mdash; by <a href="https://github.com/jackhftang">Jack Tang</a></div>
+
+    <div class="description">
+      This project provide a <strong>small-size and static-binary command line utility</strong> of tus <code>1.0.0</code> for both client and server.
+    </div>
+
+    <div class="license">Licensed under MIT</div>
+  </li>
+  
+  <li>
+    <a class="title" href="https://github.com/bluetianx/BirdMessenger">
+      bluetianx/BirdMessenger
+    </a>
+
+    <div class="author">&mdash; by <a href="https://github.com/bluetianx">Bruce Tian</a></div>
+
+    <div class="description">
+      This project provides a tus <code>1.0.0</code> client built using <strong>.NET</strong>.
+    </div>
+
+    <div class="license">Licensed under MIT</div>
+  </li>
+  
+  <li>
+    <a class="title" href="https://github.com/adhocore/tusc.sh">
+      adhocore/tusc.sh
+    </a>
+
+    <div class="author">&mdash; by <a href="https://github.com/adhocore">Jitendra Adhikari</a></div>
+
+    <div class="description">
+      This project provides a tus <code>1.0.0</code> client for <strong>bash</strong>.
+    </div>
+
+    <div class="license">Licensed under MIT</div>
+  </li>
 </ul>
 
 <h4>Server</h4>
@@ -269,6 +311,19 @@ what protocol version you're targeting.
     </div>
 
     <div class="license">Licensed under MIT</div>
+  </li>
+  <li>
+    <a class="title" href="https://github.com/pylotcode/aiohttp-tus">
+      pylotcode/aiohttp-tus
+    </a>
+
+    <div class="author">&mdash; by <a href="https://www.pylot.dev/">Pylot</a> Team, Igor Davydenko <a href="https://github.com/playpauseandstop">@playpauseandstop</a> </div>
+
+    <div class="description">
+      <strong>Asynchronous Python 3</strong> implementation with binding to <strong>aiohttp.web</strong> framework implementing tus protocol
+    </div>
+
+    <div class="license">Licensed under BSD-3-Clause</div>
   </li>
 
   <li>
@@ -424,6 +479,34 @@ what protocol version you're targeting.
 
     <div class="license">Licensed under MIT</div>
   </li>
+
+  <li>
+    <a class="title" href="https://github.com/jackhftang/tusc">
+      jackhftang/tusc
+    </a>
+
+    <div class="author">&mdash; by <a href="https://github.com/jackhftang">Jack Tang</a></div>
+
+    <div class="description">
+      This project provide a <strong>small-size and static-binary command line utility</strong> of tus <code>1.0.0</code> for both client and server.
+    </div>
+
+    <div class="license">Licensed under MIT</div>
+  </li>
+
+  <li>
+    <a class="title" href="https://github.com/mmatuska/lua-tus-server">
+      mmatuska/lua-tus-server
+    </a>
+
+    <div class="author">&mdash; by <a href="https://github.com/mmatuska">Martin Matuška</a></div>
+
+    <div class="description">
+      This project allows you to add tus <code>1.0.0</code> support to your OpenResty or NGINX (with mod_lua) installation.
+    </div>
+
+    <div class="license">Licensed under MIT</div>
+  </li>
 </ul>
 
 <h4>Projects using tus</h4>
@@ -438,6 +521,14 @@ what protocol version you're targeting.
     <a class="title" href="https://github.com/shrinerb/shrine">
       shrinerb/shrine
     </a>
+  </li>
+  <li>
+    Goa based tus server implementation: <a class="title" href="https://github.com/goadesign/examples/tree/master/tus">
+      goadesign/examples/tus
+    </a>
+  </li>
+  <li>
+    The react-uploady library includes a tus upload component: <a href="https://github.com/rpldy/react-uploady"> rpldy/react-uploady</a>
   </li>
 </ul>
 
